@@ -1,0 +1,29 @@
+.programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.program img{
+    width: 100%;
+    border-radius: 10px;
+    display: inblock;
+    border-style: solid;
+    border-color: rgba(78, 87, 168, 0.336);
+    border-width: 1px;
+}
+.program{
+    flex-basis: 31%;
+}
+
+
+@media (max-width:650px){
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
